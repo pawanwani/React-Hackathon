@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+.App {
+  text-align: center;
+}
+
+button:focus,
+input:focus{
+  outline: none;
+  box-shadow: none;
+}
+a,
+a:hover{
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+.fontStyle{
+  font-family: 'Lato', sans-serif;
+}
+
+[role=presentation] {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fileUploadContain{
+  width: 100%;
+  height: 50vh;
+  border: 2px dashed #4097e3;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 14px;
+}
+
+.fileUploadMainContainer{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.FileType{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2580e8;
+}
+
+.Upload{
+
+}
+
+.fileNotUploadedError{
+  color:red;
+}
+
+.UploadButton{
+    margin-top: 20px;
+    width: 17vh;
+    height: 6vh;
+    border-radius: 23px;
+    border-width: 0px;
+    color: #fff;
+    background-color: #4097e3
+  }
+
+  .UploadButton:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+.UploadContainer{
+
+}
+
+.SelecteFileText{
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0px!important;
+}
+
+.SelecteFileContanier{
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.SelectedFileMain{
+  padding: 3px;
+  margin-top: 10px;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #4097e3;
+}
+
+.DeletingFileButton{
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+}
+
+.FileView{
+width: 35px;
+height: 35px;
+display: flex;
+align-self: center;
+padding: 5px;
+}
+
+.FileViewDetails{
+
+}
+
+.SelectedFileNameContainer{
+  display: flex;
+  flex-direction: row;
+  width: 92%;
+}
+
+.SelecteFileTextSize{
+  font-family: 'Nunito', sans-serif;
+  font-size: 8px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+}
+
+.UploadImage{
+  width: 15vh;
+  height: 15vh;
+}
+
+.progressCircle{
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .fileUploadMainContainer{
+      width: 70%;
+      left: 15%;
+      top: 20%;
+  }
+  .SelecteFileText{
+    text-align: left;
+  }
+}

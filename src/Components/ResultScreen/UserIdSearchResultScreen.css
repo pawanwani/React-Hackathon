@@ -1,0 +1,28 @@
+.single-user-loyalty{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.single-user-loyalty .CircularProgressbar{
+    width:300px;
+} 
+
+.user-detail-block img{
+    width: 200px;
+}
+
+.user-detail-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+    .single-user-loyalty{
+        margin: 100px auto;
+    }
+    .user-detail-block img{
+        width: 130px;
+    }
+}

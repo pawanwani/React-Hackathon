@@ -1,0 +1,100 @@
+.circular-progressbar{
+    width:100px;
+    height: 100px;
+    padding: 10px;
+}
+.result-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px auto;
+    
+}
+.user-name{
+    font-weight: 700;
+}
+.main-container{
+    display: flex;
+    padding: 20px;
+}
+
+.paginationContainer{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.paginationItems{
+    display: flex;
+    flex-wrap: wrap;
+    height: 70vh;
+    justify-content: center;
+}
+.padinationActiveNumber{
+    font-weight: 700;
+    border-bottom: 1px solid rgb(28, 0, 189);
+}
+.paginationNumber{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+}
+.paginationNumber li{
+    list-style-type: none;
+    padding: 10px 20px;
+}
+.sub-container{
+    width: 80%;
+}
+.search-container{
+    width: 20%;
+}
+
+.bar-color-red .CircularProgressbar-path{
+    stroke: #f33!important;
+    strokeLinecap: round !important;
+    transition: stroke-dashoffset 0.5s ease 0s !important;
+}
+.bar-color-yellow .CircularProgressbar-path{
+    stroke: #ffa400 !important;
+    strokeLinecap: round !important;
+    transition: stroke-dashoffset 0.5s ease 0s !important;
+}
+.bar-color-green .CircularProgressbar-path{
+    stroke: #0cce6a !important;
+    strokeLinecap: round !important;
+    transition: stroke-dashoffset 0.5s ease 0s !important;
+}
+
+@media screen and (min-width:1024px) {
+    .circular-progressbar{
+        flex:0 0 180px;
+        padding: 10px 10px 90px 10px;
+    }
+}
+@media screen and (max-width:768px) {
+    .circular-progressbar{
+        padding: 20px 10px;
+    }
+    .main-container{
+        display: block;
+    }
+    .search-container{
+        width:100%;
+    }
+    .search-heading{
+        margin-top: 30px;
+    }
+    .userid-container{
+        margin-top: 30px;
+    }
+    .loyalty-filter-container{
+        margin-top: 10px;
+    }
+    .sub-container{
+        width: 80%;
+        margin: 0 auto;
+    }
+}

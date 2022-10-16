@@ -1,0 +1,14 @@
+.loyalyCOntainer{
+    width: 41vh;
+    height: 20vh;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.loyaltyName{
+font-weight: 700;
+align-self: center;
+}
+

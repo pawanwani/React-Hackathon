@@ -1,0 +1,53 @@
+{
+  "name": "hackathon",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mountainpass/react-infinite-scroll-trigger": "^1.0.20",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.23.5",
+    "axios": "^1.1.2",
+    "install": "^0.13.0",
+    "multi-range-slider-react": "^2.0.2",
+    "npm": "^8.19.2",
+    "react": "^18.2.0",
+    "react-blazing-infinity-scroll": "^1.0.19",
+    "react-circular-progressbar": "^2.1.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-easy-infinity-scroller": "^1.4.0",
+    "react-infinity-loading": "^1.0.1",
+    "react-infinity-scroll-list": "^1.0.0",
+    "react-paginate": "^8.1.3",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+@media screen and (min-width:1024px) {
+    .loyalty-filter-container{
+        margin-top: 55px;
+    }
+}
+
+.multi-range-slider{
+    border: none;
+    box-shadow: none;
+}
+.min-max-values{
+    font-weight: 700;
+}
+.button-container{
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-around;
+}
+.search-button-container{
+    color:black;
+}
+.search-button-container button{
+    padding: 5px 10px;
+    background-color: #3e98c7;
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+.Clear-button-container button{
+    padding: 5px 10px;
+    background-color: #3e98c7;
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+.multiRangeSlider-container .multi-range-slider .bar-inner {
+    background-color: #3e98c7 !important
+}

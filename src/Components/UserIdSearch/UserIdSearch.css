@@ -1,0 +1,21 @@
+.userid-container{
+    margin-top: 70px;
+}
+#userIdSearch{
+    width: 70%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid black !important;
+    margin: 10px 0px;
+
+}
+option{
+    padding: 13px;
+    margin: 10px;
+}
+
+#userIdSearch:focus, #userIdSearch:focus-visible {
+    border: none;
+    outline: none;
+}
+
